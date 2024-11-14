@@ -41,7 +41,7 @@ To use the CLI, run the `github-activity` command followed by the GitHub usernam
 
 ### Example
 
-Fetch recent activity for the GitHub user `kamranahmedse`:
+Fetch recent activity for the GitHub user `jun-fajr`:
 
 ```bash
 github-activity jun-fajr

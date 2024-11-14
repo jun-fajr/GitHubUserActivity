@@ -2,6 +2,7 @@
 
 GitHub User Activity CLI is a simple command-line application built with Go that fetches and displays recent activity for a specified GitHub user. It allows you to view recent events, such as commits, issues created, starred repositories, and more.
 Task from https://roadmap.sh/projects/github-user-activity
+
 ## Features
 
 - Fetch and display recent activity for any GitHub user
@@ -19,7 +20,7 @@ Task from https://roadmap.sh/projects/github-user-activity
 
    ```bash
    git clone https://github.com/jun-fajr/GitHubUserActivity.git
-   cd github-user-activity-cli
+   cd GitHubUserActivity
    ```
 
 2. Build the project:
@@ -43,16 +44,20 @@ To use the CLI, run the `github-activity` command followed by the GitHub usernam
 Fetch recent activity for the GitHub user `kamranahmedse`:
 
 ```bash
-github-activity kamranahmedse
+github-activity jun-fajr
 ```
 
 ### Sample Output
 
 ```plaintext
-Fetching activity for user: kamranahmedse
-- Pushed to kamranahmedse/developer-roadmap
-- Created an issue in kamranahmedse/developer-roadmap
-- Starred kamranahmedse/developer-roadmap
+Fetching activity for user: jun-fajr
+- Forked koprab/monalisa-font
+- Pushed to jun-fajr/junizarfajri-betest
+- Created a repository jun-fajr/junizarfajri-betest
+- Created a repository jun-fajr/junizarfajri-betest
+- Created a repository jun-fajr/test-be
+- Created a repository jun-fajr/test-be
+- Pushed to jun-fajr/Web-Scraping
 ...
 ```
 
@@ -82,6 +87,3 @@ Feel free to open issues or submit pull requests if you'd like to contribute to 
 ---
 
 Enjoy tracking GitHub activity!
-```
-
-Replace `https://github.com/jun-fajr/GitHubUserActivity.git` with your actual GitHub repository URL if you plan to publish it. Let me know if you need additional customization or information added to the `README`!
